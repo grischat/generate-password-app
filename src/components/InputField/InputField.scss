@@ -1,0 +1,15 @@
+@import '/src/main.scss';
+
+
+.input__container {
+    width: 21.4rem;
+    height: 4rem;
+    background-color: $cointainers;
+    position: relative;
+    top: 3rem;
+    border: 0;
+    text-align: left;
+    font-size: 32px;
+    color: $fontcolor;
+    font-family: $jetbrainsmonoBold;
+}
