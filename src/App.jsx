@@ -1,4 +1,5 @@
 import InputField from './components/InputField/InputField'
+import Options from './components/Options/Options'
 import './App.scss'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       Password Generator
       </h4>
       <InputField/>
+      <Options/>
     </>
   )
 }

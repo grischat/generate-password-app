@@ -1,0 +1,10 @@
+@import '/src/main.scss';
+.characters-counter {
+    color: $lightgreen;
+    font-family: "JetBrains Mono", monospace;
+    position: relative;
+    font-size: 24px;
+    top: -5.85rem;
+    right: -19rem;
+    width: 0;
+}

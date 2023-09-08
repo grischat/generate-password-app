@@ -2,8 +2,9 @@
 
 
 .input__container {
-    width: 21.4rem;
-    height: 4rem;
+    width: 20.4rem;
+    height: 3rem;
+    padding: 1rem;
     background-color: $cointainers;
     position: relative;
     top: 3rem;
@@ -12,4 +13,7 @@
     font-size: 32px;
     color: $fontcolor;
     font-family: $jetbrainsmonoBold;
+    outline: none;
+    cursor: pointer;
+    font-size: 25px;
 }

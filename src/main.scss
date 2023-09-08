@@ -13,17 +13,17 @@ $strengthStrong: rgb(164, 255, 175);
 //Typography
 $jetbrainsmonoBold: "JetBrains Mono", monospace;
 :root {
-
   background-color: $background;
   margin: 0 auto;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
+  align-items: center;
   font-size: 16px;
 }
 h4 {
-    position: relative;
-    text-align: center;
-    top: 3rem;
-    color: $fontcolorSecondary;
-    font-family: $jetbrainsmonoBold;
+  position: relative;
+  text-align: center;
+  top: 3rem;
+  color: $fontcolorSecondary;
+  font-family: $jetbrainsmonoBold;
 }

@@ -1,0 +1,21 @@
+@import "/src/main.scss";
+
+.options__container {
+  width: 22.4rem;
+  height: 60vh;
+  margin-top: 4rem;
+  background-color: $cointainers;
+}
+.character__text {
+  color: $fontcolor;
+  font-family: $jetbrainsmonoBold;
+  top: 1.5rem;
+  position: relative;
+  right: 5rem;
+}
+.settings__text {
+  color: $fontcolor;
+  font-family: $jetbrainsmonoBold;
+  display: flex;
+  align-items: center;
+}
