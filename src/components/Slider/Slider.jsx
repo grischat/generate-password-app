@@ -4,7 +4,6 @@ import { useState } from "react";
 const SliderComponent = () => {
   const [sliderValue, setSliderValue] = useState(10);
   const handleChangeValue = (event,newValue) => {
-    console.log(newValue)
     setSliderValue(newValue);
   };
   

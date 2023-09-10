@@ -1,10 +1,15 @@
 import Checkbox from "@mui/material/Checkbox";
 import '../Checkbox/Checkbox.scss'
-const CheckboxMui = ({checboxText}) => {
+const CheckboxMui = ({checboxText, onChange}) => {
+
+    const handleCheckboxChange = (event) => {
+        onChange(event.target.checked);
+      };
   return (
     <div className="checkboxes__container">
       <Checkbox
-        defaultChecked={true}
+        defaultChecked={false}
+        onChange={handleCheckboxChange}
         sx={{
           "&.MuiButtonBase-root": {
             display: "flex",
