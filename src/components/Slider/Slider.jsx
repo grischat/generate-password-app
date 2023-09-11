@@ -1,18 +1,21 @@
+
 import Slider from "@mui/material/Slider";
-import '../Slider/Slider.scss'
+import "../Slider/Slider.scss";
 import { useState } from "react";
-const SliderComponent = () => {
+const SliderComponent = ({onChangeSliderValue}) => {
   const [sliderValue, setSliderValue] = useState(10);
-  const handleChangeValue = (event,newValue) => {
+  const handleChangeValue = (event, newValue) => {
     setSliderValue(newValue);
+    onChangeSliderValue(newValue);
   };
-  
+
   return (
     <div>
       <Slider
+        value={sliderValue}
         defaultValue={10}
         max={20}
-        min={0}
+        min={4}
         onChange={handleChangeValue}
         sx={{
           width: 320,
