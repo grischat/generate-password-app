@@ -47,8 +47,8 @@ const Options = () => {
   const handleGeneratedPassword = () => {
     const password = PasswordGenerator(
       sliderValue,
-      includeLowCase,
       includeUpCase,
+      includeLowCase,
       includeSymbols,
       includeNumbers,
     );
