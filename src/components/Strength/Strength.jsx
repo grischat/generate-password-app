@@ -25,6 +25,7 @@ const Strength = ({ children, isCheckboxChecked }) => {
   const barsToHighlight = Math.min(4, isCheckboxChecked);
  
   return (
+    
     <div className={`strength__container`}>
       {children}
       <p className="strength__header">STRENGTH</p>

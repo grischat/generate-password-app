@@ -3,7 +3,6 @@ import Button from "@mui/material/Button";
 const ButtonMui = ({onClick}) => {
   return (
     <Button
-    
       variant="contained"
       sx={{ "&.MuiButtonBase-root": {
         width: '19.4rem',
